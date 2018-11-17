@@ -9,5 +9,5 @@ def fizzbuzz_convert(num):
     return str(num)
 
 
-result = fizzbuzz_convert(1)
-print(result)
+for num in range(1, 101):
+    print(fizzbuzz_convert(num))
